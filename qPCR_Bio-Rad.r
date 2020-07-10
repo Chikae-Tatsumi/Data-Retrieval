@@ -5,7 +5,7 @@ setwd("~/R/Analysis/1_Test")
 # Import and enter your data!!!!
 data <- read.csv("admin_XXXXX -  Quantification Amplification Results_SYBR.csv", header = TRUE) # Replace fine name
 soil <- read.csv ("soil data.csv",header=T, row.names=1) # "weight_g" column = extracted fresh soil weight (g), "water content_%" column = water content of each soil (%), "DNA_ngperml" column = DNA quantity from the quanttus or something (ng/ml) # see example file
-std.conc <- 8144  # ng/ul, from Qubit or something like that
+std.conc <- 8.144  # ng/ul, from Qubit or something like that
 std.dilt <- c(10^-4,10^-5,10^-6,10^-7,10^-8,10^-9)   # How did you dilute your standard samples? 
 std.number <- 6 # How many wells did you use for the standard samples?
 nc.number <- 2 # How many wells did you use for the negative control?
