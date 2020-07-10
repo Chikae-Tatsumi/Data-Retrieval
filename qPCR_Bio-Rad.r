@@ -29,7 +29,7 @@ library(ggplot2)
 # Basic calculation
 DNA.weight.mol <- DNA.length * 330 *2  # g/mol
 DNA.weight <- DNA.weight.mol/(6.023*10^23)  # g/molecule
-DNA.amount <- 10^(-6)/DNA.weight  # molecules/ug
+DNA.amount <- 10^(-9)/DNA.weight  # molecules/ng
 
 
 # Illustrate the amplification curves and get the Ct values
